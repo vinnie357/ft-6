@@ -19,6 +19,10 @@ https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.doc
 - scp firmware.bin pi@orangepi:/media/sda1/firmware.bin
 - scp -i ~/keys/ssh_pub_key firmware.bin user@orangepi:/media/sda1/firmware.bin
 
+## reload/flash firmware after copy
+https://github.com/MarlinFirmware/Marlin/pull/15209
+M997
+
 ## addtional options:
 - Servo Direction
   - INVERT_[x,y,x]_DIR
